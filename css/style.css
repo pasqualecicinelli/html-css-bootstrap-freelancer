@@ -2,10 +2,29 @@
     box-sizing: content-box;
 }
 
+/*--HEADER--*/
+
+.header{
+    min-height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--DEBUG--*/
+
 .bordo-container{
     border: 1px solid black;
     min-height: 100px;
-    
 }
 
 .bordo-col{
@@ -19,14 +38,8 @@
 
 
 
+        /*--MEDI--QUERY--
 
-
-
-
-
-
-
-/*--MEDI--QUERY--
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
 
