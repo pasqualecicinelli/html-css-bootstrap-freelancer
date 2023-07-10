@@ -1,10 +1,6 @@
-*{
-    box-sizing: content-box;
-}
-
 /*--HEADER--*/
 
-.header{
+.header {
     min-height: 100px;
 }
 
@@ -22,23 +18,24 @@
 
 /*--DEBUG--*/
 
-.bordo-container{
+.bordo-container {
     border: 1px solid black;
     min-height: 100px;
 }
 
-.bordo-col{
+.bordo-col {
     border: 3px dashed red;
+    min-width: 100px;
 }
 
-.bordo-card{
+.bordo-card {
     border: 5px solid yellow;
 }
 
 
 
 
-        /*--MEDI--QUERY--
+/*--MEDI--QUERY--
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
