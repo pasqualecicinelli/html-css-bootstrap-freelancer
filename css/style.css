@@ -1,10 +1,47 @@
+:root {
+    --bg-header-foot: #2C3E50;
+    --bg-start-about: #1ABC9C;
+    --bg-portofolio: white;
+    --bg-location: #3A546D;
+    --txt: #2C3E50;
+    --txt-white: white;
+    --bg-trasparent:#000000;
+}
+
+/*FONT--AWESOME*/
+
+/* 
+    MENU <i class="fa-solid fa-bars"></i>
+    STAR <i class="fa-solid fa-star"></i>
+    DOWNLOAD <i class="fa-solid fa-download"></i>
+    FACEBOOK <i class="fa-brands fa-facebook-f"></i>
+    GOOGLE+ <i class="fa-brands fa-google-plus-g"></i>
+    TWITTER <i class="fa-brands fa-twitter"></i>
+    LINKEDIM <i class="fa-brands fa-linkedin-in"></i>
+    COPYRIGHT <i class="fa-regular fa-copyright"></i>
+    */
+
 /*--HEADER--*/
 
-.header {
+#header {
     min-height: 100px;
 }
 
 
+
+
+
+
+/*--LOCATION--*/
+
+
+
+
+/*--FOOTER--*/
+
+#footer .container {
+    min-height: 100px;
+}
 
 
 
