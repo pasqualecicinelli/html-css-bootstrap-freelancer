@@ -87,37 +87,54 @@
 
 /*--PORTFOLIO*/
 
-#portfolio h2, #portfolio .star{
+#portfolio h2,
+#portfolio .star {
     color: var(--bg-header-foot);
 }
-#portfolio .line{
+
+#portfolio .line {
     background-color: var(--bg-header-foot);
 }
 
-#portfolio .card-img{
+#portfolio .card-img {
     border-radius: 20px;
 }
 
 /*--ABOUT--*/
 
-#about{
+#about {
     background-color: var(--bg-start-about);
     color: var(--txt-white);
 }
-/*--CONTACT*/
 
-#contact textarea.form-control {
-    min-height: calc(10.5em + 0.75rem + 2px)
-}
-
-/*--ABOUT--*/
-
-#about .btn-success{
+#about .btn-success {
     background-color: var(--bg-start-about);
     border-color: var(--txt-white);
 }
 
+/*--CONTACT*/
 
+#contact h2, #contact .fa-star{
+    color: var(--bg-header-foot);
+}
+
+#contact .line{
+    background-color: var(--bg-header-foot);
+}
+
+#contact .form-control{
+    border-bottom:1px solid var(--bg-location);
+    border-top:0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+#contact label{
+    padding: 1rem 0;
+}
+
+
+/*--LOCATION--*/
 
 
 /*--FOOTER--*/
@@ -125,10 +142,6 @@
 #footer .container {
     min-height: 100px;
 }
-
-
-
-
 
 
 
@@ -166,14 +179,15 @@
         max-width: 30%;
     }
 
-    .fa-star{
+    .fa-star {
         font-size: 1rem;
     }
+
     i.px-1 {
-        padding-right: 1rem!important;
-        padding-left: 1rem!important;
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
     }
-   
+
     .line {
         width: 10%;
         height: 3px;
