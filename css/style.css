@@ -8,6 +8,22 @@
     --bg-trasparent:#000000;
 }
 
+.star{
+    width: 100%;
+    height: 100%;
+}
+
+.line{
+    width: 8%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--txt-white);
+}
+
+.fa-star{
+    font-size: 2rem;
+}
+
 /*FONT--AWESOME*/
 
 /* 
@@ -25,12 +41,57 @@
 
 #header {
     min-height: 100px;
+    background-color: var(--bg-header-foot);
+    color: var(--txt-white);
+    line-height: 100px;
+}
+
+#header .fa-bars{
+    padding: 0.25rem 0.5rem;
+    border: 1px solid var(--txt-white);
+    border-radius: 5px;
+}
+
+#header h3{
+    color: var(--txt-white);
+    font-weight: bold;
+    
+}
+
+#header .nav{
+    --bs-nav-link-color:var(--txt-white);
+    font-weight:600;
+}
+
+        /*--JUMBOTRON*/
+
+#jumbotron{
+    background-color: var(--bg-start-about);
+    color: var(--txt-white);
+    width: 100%;
+    height: 100%;
+}
+
+#jumbotron h1{
+    font-weight: bold;
+}
+#jumbotron svg{
+    max-width: 60%;
+}
+
+#jumbotron .info{
+    width: 100%;
 }
 
 
 
 
 
+/*--CONTACT*/
+
+#contact textarea.form-control {
+    min-height: calc(10.5em + 0.75rem + 2px)
+}
 
 /*--LOCATION--*/
 
@@ -72,14 +133,27 @@
 
 
 
-/*--MEDI--QUERY--
+/*--MEDI--QUERY--*/
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+ }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-*/
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    #jumbotron svg{
+        max-width:40%;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+#header .container{
+    max-width: 992px;
+}
+
+    #jumbotron svg{
+        max-width:20%;
+    }
+ }
