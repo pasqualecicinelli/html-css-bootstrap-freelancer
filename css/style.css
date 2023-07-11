@@ -143,57 +143,43 @@
 
 /*--LOCATION--*/
 
-#location{
+#location {
     background-color: var(--bg-location);
     color: var(--txt-white);
 }
-#location .circle>i{
+
+#location .circle>i {
     border-radius: 50%;
     border: 1px solid var(--txt-white);
     padding: 1rem;
 }
 
-#location .circle .fa-facebook-f{
+#location .circle .fa-facebook-f {
     padding: 1rem 1.25rem;
 }
 
-#location .circle .fa-linkedin-in{
+#location .circle .fa-linkedin-in {
     padding: 1rem 1.15rem;
 }
-#location span{
+
+#location span {
     color: var(--bg-start-about);
 }
 
 /*--FOOTER--*/
 
+#footer {
+    background-color: var(--bg-header-foot);
+    color: var(--txt-white);
+}
+
 #footer .container {
     min-height: 100px;
 }
 
-
-
-
-
-
-
-/*--DEBUG--*/
-
-.bordo-container {
-    border: 1px solid black;
-    min-height: 100px;
+#footer i{
+    font-size: 0.75rem;
 }
-
-.bordo-col {
-    border: 3px dashed red;
-    min-width: 100px;
-}
-
-.bordo-card {
-    border: 5px solid yellow;
-}
-
-
-
 
 /*--MEDI--QUERY--*/
 
@@ -220,9 +206,6 @@
         height: 3px;
     }
 
-#location .circle>i{
-    font-size:
-}
 }
 
 /* Large devices (desktops, 992px and up)*/
