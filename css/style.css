@@ -114,28 +114,55 @@
 
 /*--CONTACT*/
 
-#contact h2, #contact .fa-star{
+#contact h2,
+#contact .fa-star {
     color: var(--bg-header-foot);
 }
 
-#contact .line{
+#contact .line {
     background-color: var(--bg-header-foot);
 }
 
-#contact .form-control{
-    border-bottom:1px solid var(--bg-location);
-    border-top:0;
+#contact .form-control {
+    border-bottom: 1px solid var(--bg-location);
+    border-top: 0;
     border-left: 0;
     border-right: 0;
     border-radius: 0;
 }
-#contact label{
+
+#contact label {
     padding: 1rem 0;
 }
 
+#contact button {
+    background-color: var(--bg-start-about);
+    border: 0;
+    font-size: 1.25rem;
+}
 
 /*--LOCATION--*/
 
+#location{
+    background-color: var(--bg-location);
+    color: var(--txt-white);
+}
+#location .circle>i{
+    border-radius: 50%;
+    border: 1px solid var(--txt-white);
+    padding: 1rem;
+}
+
+#location .circle .fa-facebook-f{
+    padding: 1rem 1.25rem;
+}
+
+#location .circle .fa-linkedin-in{
+    padding: 1rem 1.15rem;
+}
+#location span{
+    color: var(--bg-start-about);
+}
 
 /*--FOOTER--*/
 
@@ -193,7 +220,9 @@
         height: 3px;
     }
 
-
+#location .circle>i{
+    font-size:
+}
 }
 
 /* Large devices (desktops, 992px and up)*/
