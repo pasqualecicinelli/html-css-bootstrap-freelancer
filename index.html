@@ -16,24 +16,31 @@
 <body>
     <header id="header">
         <div class="container">
-            <nav class="navbar">
-                <div class="container-fluid px-lg-4">
-                    <h3 class="navbar-brand mb-0 h2 text-uppercase">start bootstrap</h3>
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid px-md-4">
 
-                    <div class="d-md-none"><i class="fa-solid fa-bars"></i></div>
-                    <div class="d-none d-md-block">
-                        <ul class="nav justify-content-end">
-                            <li class="nav-item text-uppercase">
-                                <a class="nav-link" aria-current="page" href="#">portfolio</a>
-                            </li>
-                            <li class="nav-item text-uppercase">
-                                <a class="nav-link" href="#">about</a>
-                            </li>
-                            <li class="nav-item text-uppercase">
-                                <a class="nav-link" href="#">contact</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <h3 class="navbar-brand h2 text-uppercase">start bootstrap</h3>
+                    
+                    <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item text-uppercase">
+                                    <a class="nav-link" aria-current="page" href="#">portfolio</a>
+                                </li>
+                                <li class="nav-item text-uppercase">
+                                    <a class="nav-link" href="#">about</a>
+                                </li>
+                                <li class="nav-item text-uppercase">
+                                    <a class="nav-link" href="#">contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                   
                 </div>
             </nav>
 
@@ -533,10 +540,14 @@
                         </div>
                     </div>
                     <div class="col-8 col-md-4">
-                        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScrips well as optional LESS Stylesheets foe easy customization.</p>
+                        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
+                            complete source files including HTML, CSS, and JavaScrips well as optional LESS Stylesheets
+                            foe easy customization.</p>
                     </div>
                     <div class="col-8 col-md-4">
-                        <p>Wheter you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                        <p>Wheter you're a student looking to showcase your work, a professional looking to attract
+                            clients, or a graphic artist looking to share your projects, this template is the perfect
+                            starting point!</p>
                     </div>
                     <div class="col-12 pt-5 text-center">
                         <button type="button" class="btn btn-success"><i class="fa-solid fa-download"></i>
@@ -559,6 +570,7 @@
                             <div class="line"></div>
                         </div>
                         <form action="http://learning.tizianonicolai.com/request-catcher/" method="get">
+
                             <div class="form-floating mb-3">
                                 <input type="Name" class="form-control" id="floatingName" placeholder="Name">
                                 <label for="floatingName">Name</label>
@@ -580,7 +592,7 @@
                                 <label for="floatingTextarea2">Message</label>
                             </div>
 
-                            <button type="button" class="btn btn-primary" type="submit">Send</button>
+                            <button class="btn btn-success" type="submit">Send</button>
 
                         </form>
                     </div>
@@ -629,6 +641,9 @@
 
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
